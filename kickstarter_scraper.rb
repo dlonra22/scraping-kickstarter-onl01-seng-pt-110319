@@ -13,6 +13,7 @@ def create_project_hash
   binding.pry
   projects = {}
   kickstarter.css("li.project.grid_4").each do |project|
+    title = 
     projects[project] = {}
   binding.pry
   end
